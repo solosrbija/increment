@@ -1,5 +1,6 @@
 package increment
 
 func Inc(x int) int {
-	return x + 1
+	x = x + 1
+	return x
 }
